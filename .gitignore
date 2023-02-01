@@ -21,3 +21,6 @@
 go.work
 
 .idea
+
+config/mysql/data/*
+!config/mysql/data/
