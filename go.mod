@@ -1,4 +1,4 @@
-module github.com/RaymondCode/simple-demo
+module github.com/melrose12138/zhgg-dy
 
 go 1.17
 
