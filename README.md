@@ -24,3 +24,24 @@ test 目录下为不同场景的功能测试case，可用于验证功能实现�
 其中 common.go 中的 _serverAddr_ 为服务部署的地址，默认为本机地址，可以根据实际情况修改
 
 测试数据写在 demo_data.go 中，用于列表接口的 mock 测试
+
+
+## 项目启动
+
+### 1、更新依赖
+```shell
+go mod tidy
+```
+### 2、启动项目所依赖的环境
+```shell
+docker network create zhgg-dy_zhhhdy_net
+docker-compose up
+```
+
+## 新增内容
+
+### 2023.2.1
+
+-  使用 `docker`配置环境
+-  使用 `viper` 管理项目配置
+
